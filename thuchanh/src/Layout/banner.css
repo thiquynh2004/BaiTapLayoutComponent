@@ -1,0 +1,44 @@
+.banner{
+    padding: 60px 0;
+}
+.banner .container{
+    background-color:#f8f9fa;
+}
+.content-banner{
+    text-align: center;
+    height: 70vh;
+    display:  flex;
+    flex-direction: column;
+    justify-content:center;
+   
+}
+.content-banner h1{
+    font-size: 60px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+.content-banner p{
+    font-size: 30px
+}
+.content-banner a{
+    padding: 15px 0;
+}
+.content-banner button{
+    font-size:20px
+}
+
+@media screen and (max-width:576px){
+    .content-banner{
+        height: 40vh;
+    }
+    .content-banner h1{
+        font-size: 30px;
+
+    }
+    .content-banner p{
+        font-size: 15px;
+    }
+    .content-banner button{
+        font-size:15px;
+    }
+}
